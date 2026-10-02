@@ -1,0 +1,10 @@
+{
+    "C_Cpp.clang_format_style": "{ BasedOnStyle: LLVM, BreakBeforeBraces: Attach, IndentWidth: 4, TabWidth: 4, UseTab: ForIndentation, Cpp11BracedListStyle: FunctionCall }",
+    "files.associations": {
+        "*.h": "cpp"
+    },
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools",
+        "editor.formatOnSave": true
+    }
+}
