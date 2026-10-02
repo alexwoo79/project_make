@@ -1,5 +1,6 @@
 #include <fstream>
 #include <iostream>
+#include <string>
 #include <vector>
 using namespace std;
 
@@ -17,8 +18,6 @@ class Database {
 	~Database() {
 		// destructor for the Database class
 	}
-	vector<string> list;
-	string name;
-	void write(const vector<string> &list);
-	void read(vector<string> &list);
+	bool write(const string &username, const vector<string> &list);
+	bool read(const string &username, vector<string> &list);
 };
